@@ -1,8 +1,0 @@
-<application>
-  <component name="CppNewDialogSettings">
-    <option name="addNewFilesToProject" value="false" />
-  </component>
-  <component name="OCCodeInsightSettings">
-    <option name="ALLOW_IMPORT_IN_COMPLETION" value="false" />
-  </component>
-</application>
