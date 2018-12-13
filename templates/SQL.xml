@@ -1,0 +1,86 @@
+<templateSet group="SQL">
+  <template name="pf03" value="; -- 原交易定义&#10;select * from pf03 where pf03trancode='$trancode$' ; $END$ " description="交易定义" toReformat="false" toShortenFQNames="true">
+    <variable name="trancode" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="SQL" value="true" />
+    </context>
+  </template>
+  <template name="pf04" value="; -- 组件定义&#10;select * from pf04 where pf04compcode='$compcode$' ; $END$ " description="组件定义" toReformat="false" toShortenFQNames="true">
+    <variable name="compcode" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="SQL" value="true" />
+    </context>
+  </template>
+  <template name="pf05" value="; -- 公共组件定义&#10;select * from pf05 ; " description="公共组件定义" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="SQL" value="true" />
+    </context>
+  </template>
+  <template name="pf06t" value="; -- 交易组装定义&#10;select * from pf06 where pf06trancode='$trancode$' ; $END$ " description="交易组装-交易代码" toReformat="false" toShortenFQNames="true">
+    <variable name="trancode" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="SQL" value="true" />
+    </context>
+  </template>
+  <template name="pf06c" value="; -- 交易组装定义&#10;select * from pf06 where pf06compcode='$compcode$' ; $END$ " description="交易组装-组件代码" toReformat="false" toShortenFQNames="true">
+    <variable name="compcode" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="SQL" value="true" />
+    </context>
+  </template>
+  <template name="pf07t" value="; -- 组件参数映射定义&#10;select * from pf07 where pf07trancode='$trancode$' ; $END$ " description="组件参数映射-交易代码" toReformat="false" toShortenFQNames="true">
+    <variable name="trancode" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="SQL" value="true" />
+    </context>
+  </template>
+  <template name="pf07m" value="; -- 组件参数映射定义&#10;select * from pf07 where pf07trancode='$trancode$' and pf07compmark = '$compmark$' ; $END$ " description="组件参数映射-组件标示" toReformat="false" toShortenFQNames="true">
+    <variable name="trancode" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="compmark" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="SQL" value="true" />
+    </context>
+  </template>
+  <template name="pf08" value="; -- 交易通讯字典定义&#10;select * from pf08 where pf08trancode='$trancode$' ; $END$ " description="交易通讯字典定义" toReformat="false" toShortenFQNames="true">
+    <variable name="trancode" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="SQL" value="true" />
+    </context>
+  </template>
+  <template name="pf09" value="; -- 交易API接口定义&#10;select * from pf09 where pf09func='$func$' ; $END$ " description="交易API接口定义" toReformat="false" toShortenFQNames="true">
+    <variable name="func" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="SQL" value="true" />
+    </context>
+  </template>
+  <template name="pf10" value="; -- 组件出入口定义&#10;select * from pf10 where pf10compcode='$compcode$' ; $END$ " description="组件出入口定义" toReformat="false" toShortenFQNames="true">
+    <variable name="compcode" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="SQL" value="true" />
+    </context>
+  </template>
+  <template name="pf11" value="; -- 接口出入口定义&#10;select * from pf11 where pf11func='$func$' ; $END$ " description="接口出入口定义" toReformat="false" toShortenFQNames="true">
+    <variable name="func" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="SQL" value="true" />
+    </context>
+  </template>
+  <template name="pf13c" value="; -- 子系统引用接口定义&#10;select * from pf13 where pf13compcode='$compcode$' ; $END$ " description="子系统引用接口定义-组件" toReformat="false" toShortenFQNames="true">
+    <variable name="compcode" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="SQL" value="true" />
+    </context>
+  </template>
+  <template name="pf13a" value="; -- 子系统引用接口定义&#10;select * from pf13 where pf13func='$func$' ; $END$ " description="子系统引用接口定义-接口" toReformat="false" toShortenFQNames="true">
+    <variable name="func" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="SQL" value="true" />
+    </context>
+  </template>
+  <template name="pf14" value="; -- 子系统引用接口定义&#10;select * from pf14 where pf14trancode='$trancode$' ; $END$ " description="交易输出定义" toReformat="false" toShortenFQNames="true">
+    <variable name="trancode" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="SQL" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,118 @@
+<templateSet group="C/C++">
+  <template name="yper" value="if ( Is_Y_GRZHZT( $VAR$, Y_GRZHZT_$9$ ) == 0 )$END$" description="if ( Is_Y_GRZHZT( grzhzt, Y_GRZHZT ) == 0 )" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="9" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="c" value="true" />
+    </context>
+  </template>
+  <template name="yunit" value="if ( Is_Y_DWZHZT( $VAR$, Y_DWZHZT_$9$ ) == 0 )$END$" description="if ( Is_Y_DWZHZT( dwzhzt, Y_DWZHZT ) == 0 )" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="9" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="c" value="true" />
+    </context>
+  </template>
+  <template name="nper" value="if ( Is_Not_Y_GRZHZT( $VAR$, Y_GRZHZT_$9$ ) == 0 )$END$" description="if ( Is_Y_GRZHZT( grzhzt, Y_GRZHZT ) == 0 )" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="9" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="c" value="true" />
+    </context>
+  </template>
+  <template name="nunit" value="if ( Is_Not_Y_DWZHZT( $VAR$, Y_DWZHZT_$9$ ) == 0 )$END$" description="if ( Is_Y_DWZHZT( dwzhzt, Y_DWZHZT ) == 0 )" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="9" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="c" value="true" />
+    </context>
+  </template>
+  <template name="err00" value="ERR_PRO( $VAR$ );$END$" description="ERR_PRO( 自定义 );" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="c" value="true" />
+    </context>
+  </template>
+  <template name="err01" value="ERR_PRO( &quot;执行$VAR$错！&quot; );$END$" description="ERR_PRO( &quot;执行函数错！&quot; );" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="c" value="true" />
+    </context>
+  </template>
+  <template name="err02" value="ERR_PRO( &quot;查询表$VAR$错！&quot; );$END$" description="ERR_PRO( &quot;查询表错！&quot; );" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="c" value="true" />
+    </context>
+  </template>
+  <template name="err03" value="ERR_PRO( &quot;插入表$VAR$错！&quot; );$END$" description="ERR_PRO( &quot;插入表错！&quot; );" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="c" value="true" />
+    </context>
+  </template>
+  <template name="err05" value="ERR_PRO( g_acRspMsg );$END$" description="ERR_PRO( g_acRspMsg );" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="c" value="true" />
+    </context>
+  </template>
+  <template name="err04" value="ERR_PRO( &quot;更新表$VAR$错！&quot; );$END$" description="ERR_PRO( &quot;更新表错！&quot; );" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="c" value="true" />
+    </context>
+  </template>
+  <template name="err06" value="ERRLOG( g_acRspMsg );$END$" description="ERRLOG( g_acRspMsg );" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="c" value="true" />
+    </context>
+  </template>
+  <template name="app" value="AppErrLog$VAR$(); $END$ " description="AppErrLog$VAR$();" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="c" value="true" />
+    </context>
+  </template>
+  <template name="log" value="BSPAppErrLog( __FILE__, __LINE__, &quot;$VAR0$ $VAR$=[$VAR1$]&quot;, $VAR$ );$END$" description="BSPAppErrLog" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="c" value="true" />
+    </context>
+  </template>
+  <template name="dbg" value="BSPAppDbgLog( __FILE__, __LINE__, &quot;$VAR$=[$VAR1$]&quot;, $VAR$ );$END$" description="BSPAppDbgLog" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="c" value="true" />
+    </context>
+  </template>
+  <template name="rou" value="BSPDround( &amp;$VAR$, 2 ); $END$ " description="BSPDround" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="c" value="true" />
+    </context>
+  </template>
+  <template name="xhcl" value="//处理销户原因&#10;st_dp034 dp034;&#10;dp034Var2Stru( &amp;dp034 );&#10;if( pubModGb201_Gb203Xhyy( &amp;dp034 ) ){&#10;    ERRLOG( g_acRspMsg );&#10;    return -1;&#10;}" description="pubModGb201_Gb203Xhyy" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="c" value="true" />
+    </context>
+  </template>
+  <template name="dwkh" value="//根据客户号更新单位帐号，银行代码，银行名称&#10;if( pubModGb101DwzhByCusitid( $VAR$ ) )&#10;{&#10;    ERRLOG( g_acRspMsg );&#10;    return -1;&#10;}&#10;$END$" description="pubModGb101ByCusitid" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="c" value="true" />
+    </context>
+  </template>
+  <template name="lxbt01" value="pubFillGb202( &amp;gb202 ); //处理补贴利息和利息发生额 $END$" description="pubFillGb202( &amp;gb202 )" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="c" value="true" />
+    </context>
+  </template>
+  <template name="lxbt02" value="pubFillMxByField( gb202_ywmxlx, &amp;gb202_fse, &amp;gb202_fslxe, &amp;gb202_btlx ); //处理补贴利息和利息发生额 $END$" description="pubFillMxByField" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="c" value="true" />
+    </context>
+  </template>
+</templateSet>
