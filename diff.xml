@@ -24,8 +24,7 @@
       <entry key="Default">
         <PlaceSettings>
           <option name="ENABLE_SYNC_SCROLL" value="false" />
-          <option name="HIGHLIGHT_POLICY" value="BY_LINE" />
-          <option name="IGNORE_POLICY" value="TRIM_WHITESPACES" />
+          <option name="HIGHLIGHT_POLICY" value="BY_WORD_SPLIT" />
         </PlaceSettings>
       </entry>
       <entry key="DirDiff">
