@@ -73,8 +73,7 @@
       <option name="c" value="true" />
     </context>
   </template>
-  <template name="log" value="BSPAppErrLog( __FILE__, __LINE__, &quot;$VAR0$ $VAR$=[$VAR1$]&quot;, $VAR$ );$END$" description="BSPAppErrLog" toReformat="false" toShortenFQNames="true">
-    <variable name="VAR0" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="log" value="BSPAppErrLog( __FILE__, __LINE__, &quot;$VAR$=[$VAR1$]&quot;, $VAR$ );$END$" description="BSPAppErrLog" toReformat="false" toShortenFQNames="true">
     <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
