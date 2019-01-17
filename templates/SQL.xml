@@ -77,7 +77,7 @@
       <option name="SQL" value="true" />
     </context>
   </template>
-  <template name="pf14" value="; -- 子系统引用接口定义&#10;select * from pf14 where pf14trancode='$trancode$' ; $END$ " description="交易输出定义" toReformat="false" toShortenFQNames="true">
+  <template name="pf14" value="; -- 交易输出定义&#10;select * from pf14 where pf14trancode='$trancode$' ; $END$ " description="交易输出定义" toReformat="false" toShortenFQNames="true">
     <variable name="trancode" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="SQL" value="true" />
