@@ -1,6 +1,6 @@
 <application>
   <component name="DatabaseSettings" version="4">
-    <option name="page-size" value="5000" />
+    <option name="page-size" value="500000" />
     <text-mode>
       <parameter-patterns>
         <parameter-pattern value="#(\w+)#" in-scripts="true" scope="XML" predefined="#name#" />
