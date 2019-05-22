@@ -114,4 +114,11 @@
       <option name="c" value="true" />
     </context>
   </template>
+  <template name="cpy" value="strcpy( $VAR1$, $VAR2$ ); $END$" description="strcpy" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="c" value="true" />
+    </context>
+  </template>
 </templateSet>
