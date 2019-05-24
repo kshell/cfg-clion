@@ -1,0 +1,51 @@
+<application>
+  <component name="StringManipulationState">
+    <option name="history">
+      <list>
+        <ColumnAlignerModel>
+          <option name="added" value="1558660953299" />
+          <option name="separators">
+            <list>
+              <option value="," />
+              <option value="" />
+            </list>
+          </option>
+        </ColumnAlignerModel>
+        <ColumnAlignerModel>
+          <option name="added" value="1558661005866" />
+          <option name="separators">
+            <list>
+              <option value="," />
+              <option value="        " />
+              <option value="" />
+            </list>
+          </option>
+          <option name="trimLines" value="true" />
+        </ColumnAlignerModel>
+        <ColumnAlignerModel>
+          <option name="added" value="1558661091787" />
+          <option name="separators">
+            <list>
+              <option value="," />
+              <option value="        " />
+              <option value="" />
+            </list>
+          </option>
+          <option name="trimLines" value="true" />
+        </ColumnAlignerModel>
+        <ColumnAlignerModel>
+          <option name="added" value="1558661456844" />
+          <option name="separators">
+            <list>
+              <option value="," />
+              <option value="        " />
+              <option value="" />
+            </list>
+          </option>
+          <option name="trimLines" value="true" />
+        </ColumnAlignerModel>
+      </list>
+    </option>
+    <option name="version" value="2" />
+  </component>
+</application>
