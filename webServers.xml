@@ -1,6 +1,14 @@
 <application>
   <component name="WebServers">
     <option name="servers">
+      <webServer id="be696a75-cac4-49c3-a55c-6e6e6089283a" name="bspdev" url="http://10.100.254.60">
+        <fileTransfer host="10.100.254.60" port="22" rootFolder="/home/bspdev" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions controlEncoding="GB18030" dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
       <webServer id="c4a4b3e5-d9e8-47b2-8606-cd6e80e6abe8" name="107" url="http://10.100.254.107">
         <fileTransfer host="10.100.254.107" port="22" rootFolder="/weblogic/workflow" accessType="SFTP">
           <advancedOptions>
