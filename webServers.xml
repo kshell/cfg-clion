@@ -9,14 +9,6 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
-      <webServer id="c4a4b3e5-d9e8-47b2-8606-cd6e80e6abe8" name="107" url="http://10.100.254.107">
-        <fileTransfer host="10.100.254.107" port="22" rootFolder="/weblogic/workflow" accessType="SFTP">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
-          </advancedOptions>
-          <option name="port" value="22" />
-        </fileTransfer>
-      </webServer>
     </option>
   </component>
 </application>
