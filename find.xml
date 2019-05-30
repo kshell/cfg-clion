@@ -1,7 +1,7 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="File '.../local/20190121/100.ec'" />
-    <option name="defaultScopeName" value="File '.../local/20190121/100.ec'" />
-    <option name="SEARCH_SCOPE" value="File '.../local/20190121/100.ec'" />
+    <option name="customScope" value="All Places" />
+    <option name="defaultScopeName" value="All Places" />
+    <option name="SEARCH_SCOPE" value="All Places" />
   </component>
 </application>
