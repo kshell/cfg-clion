@@ -1,10 +1,12 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping ext="sqc" type="ObjectiveC" />
       <mapping ext="ec" type="ObjectiveC" />
+      <mapping ext="sqc" type="ObjectiveC" />
       <mapping pattern="Makefile" type="PLAIN_TEXT" />
+      <mapping ext="cfg" type="PLAIN_TEXT" />
       <mapping ext="err" type="PLAIN_TEXT" />
+      <mapping ext="fmt" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
