@@ -29,17 +29,20 @@
       <option name="SQL" value="true" />
     </context>
   </template>
-  <template name="dev_pubdatadic" value="select * from pubdatadic where dictcode = 'dictcode' ; $END$" description="公共数据字典" toReformat="false" toShortenFQNames="true">
+  <template name="dev_pubdatadic" value="select * from pubdatadic where dictcode = '$dictcode$' ; $END$" description="公共数据字典" toReformat="false" toShortenFQNames="true">
+    <variable name="dictcode" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="SQL" value="true" />
     </context>
   </template>
-  <template name="dev_muoutdata" value="select * from muoutdata where muid = 'muid' ; $END$" description="交易输出定义" toReformat="false" toShortenFQNames="true">
+  <template name="dev_muoutdata" value="select * from muoutdata where muid = '$muid$' ; $END$" description="交易输出定义" toReformat="false" toShortenFQNames="true">
+    <variable name="muid" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="SQL" value="true" />
     </context>
   </template>
-  <template name="dev_appdatadic" value="select * from appdatadic where dictcode = 'dictcode' ; $END$" description="子交易数据字典" toReformat="false" toShortenFQNames="true">
+  <template name="dev_appdatadic" value="select * from appdatadic where dictcode = '$dictcode$' ; $END$" description="子交易数据字典" toReformat="false" toShortenFQNames="true">
+    <variable name="dictcode" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="SQL" value="true" />
     </context>
