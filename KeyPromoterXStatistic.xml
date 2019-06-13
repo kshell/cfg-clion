@@ -65,6 +65,14 @@
           <Count>3</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Reload Page">
+        <Item>
+          <IdeaActionID>Console.TableResult.Reload</IdeaActionID>
+          <ShortCut>'Ctrl+F5'</ShortCut>
+          <Description>Reload Page</Description>
+          <Count>4</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Remove">
         <Item>
           <IdeaActionID>$Delete</IdeaActionID>
@@ -94,6 +102,14 @@
           <IdeaActionID>Console.TableResult.Submit</IdeaActionID>
           <ShortCut>'Ctrl+Enter'</ShortCut>
           <Description>Submit</Description>
+          <Count>3</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Upload to...">
+        <Item>
+          <IdeaActionID>PublishGroup.UploadTo</IdeaActionID>
+          <ShortCut>'Ctrl+Alt+Shift+X'</ShortCut>
+          <Description>Upload to...</Description>
           <Count>2</Count>
         </Item>
       </Statistic>
