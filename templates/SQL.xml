@@ -1,48 +1,63 @@
 <templateSet group="SQL">
-  <template name="dev_mainunit" value="select * from mainunit where muid = '$muid$' ; $END$ " description="原交易定义" toReformat="false" toShortenFQNames="true">
+  <template name="dev_mainunit" value="; -- 原交易定义&#10;select * from mainunit where muid = '$muid$' ; $END$ " description="原交易定义" toReformat="false" toShortenFQNames="true">
     <variable name="muid" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="SQL" value="true" />
     </context>
   </template>
-  <template name="dev_workunit" value="select * from workunit where wuid = '$wuid$' ; $END$ " description="子交易定义" toReformat="false" toShortenFQNames="true">
+  <template name="dev_workunit" value="; -- 子交易定义&#10;select * from workunit where wuid = '$wuid$' ; $END$ " description="子交易定义" toReformat="false" toShortenFQNames="true">
     <variable name="wuid" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="SQL" value="true" />
     </context>
   </template>
-  <template name="dev_workprocess-w" value="select * from workprocess where wuid = '$wuid$' ; $END$ " description="交易组装-子交易" toReformat="false" toShortenFQNames="true">
+  <template name="dev_workprocess-w" value="; -- 交易组装&#10;select * from workprocess where wuid = '$wuid$' ; $END$ " description="交易组装-子交易" toReformat="false" toShortenFQNames="true">
     <variable name="wuid" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="SQL" value="true" />
     </context>
   </template>
-  <template name="dev_workprocess-m" value="select * from workprocess where muid = '$muid$' ; $END$ " description="交易组装-交易代码" toReformat="false" toShortenFQNames="true">
+  <template name="dev_workprocess-m" value="; -- 交易组装&#10;select * from workprocess where muid = '$muid$' ; $END$ " description="交易组装-交易代码" toReformat="false" toShortenFQNames="true">
     <variable name="muid" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="SQL" value="true" />
     </context>
   </template>
-  <template name="dev_dpgetdatamap" value="select * from dpgetdatamap where muid = '$muid$' ; $END$" description="共享数据提取表" toReformat="false" toShortenFQNames="true">
+  <template name="dev_dpgetdatamap" value="; -- 共享数据提取表&#10;select * from dpgetdatamap where muid = '$muid$' ; $END$" description="共享数据提取表" toReformat="false" toShortenFQNames="true">
     <variable name="muid" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="SQL" value="true" />
     </context>
   </template>
-  <template name="dev_pubdatadic" value="select * from pubdatadic where dictcode = '$dictcode$' ; $END$" description="公共数据字典" toReformat="false" toShortenFQNames="true">
+  <template name="dev_pubdatadic" value="; -- 公共数据字典&#10;select * from pubdatadic where dictcode = '$dictcode$' ; $END$" description="公共数据字典" toReformat="false" toShortenFQNames="true">
     <variable name="dictcode" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="SQL" value="true" />
     </context>
   </template>
-  <template name="dev_muoutdata" value="select * from muoutdata where muid = '$muid$' ; $END$" description="交易输出定义" toReformat="false" toShortenFQNames="true">
+  <template name="dev_muoutdata" value="; -- 交易输出定义&#10;select * from muoutdata where muid = '$muid$' ; $END$" description="交易输出定义" toReformat="false" toShortenFQNames="true">
     <variable name="muid" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="SQL" value="true" />
     </context>
   </template>
-  <template name="dev_appdatadic" value="select * from appdatadic where dictcode = '$dictcode$' ; $END$" description="子交易数据字典" toReformat="false" toShortenFQNames="true">
+  <template name="dev_appdatadic" value="; -- 子交易数据字典&#10;select * from appdatadic where dictcode = '$dictcode$' ; $END$" description="子交易数据字典" toReformat="false" toShortenFQNames="true">
     <variable name="dictcode" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="SQL" value="true" />
+    </context>
+  </template>
+  <template name="cyc_pubcycdealcall" value="; -- 公共周期交易调度&#10;select * from pubcycdealcall ; $END$" description="公共周期交易调度" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="SQL" value="true" />
+    </context>
+  </template>
+  <template name="cyc_pubcycbrccallreg" value="; -- 公共周期机构调度结果状态&#10;select * from pubcycbrccallreg ; $END$" description="公共周期机构调度结果状态" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="SQL" value="true" />
+    </context>
+  </template>
+  <template name="cyc_pubcycworkcallreg" value=";-- 公共周期作业调度登记簿&#10;select * from pubcycworkcallreg ; $END$" description="公共周期作业调度登记簿" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="SQL" value="true" />
     </context>
