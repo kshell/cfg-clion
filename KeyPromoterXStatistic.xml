@@ -14,7 +14,7 @@
           <IdeaActionID>Jdbc.OpenEditor.Grid.DDL</IdeaActionID>
           <ShortCut>'Ctrl+Alt+Home'</ShortCut>
           <Description>DDL</Description>
-          <Count>1</Count>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Data Source Properties">
@@ -38,7 +38,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B'</ShortCut>
           <Description>Declaration</Description>
-          <Count>27</Count>
+          <Count>28</Count>
         </Item>
       </Statistic>
       <Statistic Action="Delete...">
