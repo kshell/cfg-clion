@@ -38,7 +38,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B'</ShortCut>
           <Description>Declaration</Description>
-          <Count>40</Count>
+          <Count>48</Count>
         </Item>
       </Statistic>
       <Statistic Action="Delete...">
@@ -70,7 +70,7 @@
           <IdeaActionID>HideAllWindows</IdeaActionID>
           <ShortCut>'Ctrl+Shift+F12'</ShortCut>
           <Description>Hide All Windows</Description>
-          <Count>2</Count>
+          <Count>3</Count>
         </Item>
       </Statistic>
       <Statistic Action="Jump to Console...">
@@ -94,7 +94,7 @@
           <IdeaActionID>Jdbc.OpenEditor</IdeaActionID>
           <ShortCut>'F4'</ShortCut>
           <Description>Open Console</Description>
-          <Count>9</Count>
+          <Count>11</Count>
         </Item>
       </Statistic>
       <Statistic Action="Paste">
@@ -215,6 +215,12 @@
         <Item>
           <IdeaActionID>ActivateDatabaseToolWindow</IdeaActionID>
           <Description>Database</Description>
+        </Item>
+      </Statistic>
+      <Statistic Action="Download from nvbs5">
+        <Item>
+          <IdeaActionID>PublishGroup.Download</IdeaActionID>
+          <Description>Download from nvbs5</Description>
         </Item>
       </Statistic>
       <Statistic Action="Execute">
