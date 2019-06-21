@@ -41,14 +41,6 @@
           <Count>48</Count>
         </Item>
       </Statistic>
-      <Statistic Action="Delete...">
-        <Item>
-          <IdeaActionID>$Delete</IdeaActionID>
-          <ShortCut>'Delete'</ShortCut>
-          <Description>Delete...</Description>
-          <Count>2</Count>
-        </Item>
-      </Statistic>
       <Statistic Action="Duplicate">
         <Item>
           <IdeaActionID>DatabaseView.CopyAction</IdeaActionID>
@@ -215,6 +207,14 @@
         <Item>
           <IdeaActionID>ActivateDatabaseToolWindow</IdeaActionID>
           <Description>Database</Description>
+        </Item>
+      </Statistic>
+      <Statistic Action="Delete...">
+        <Item>
+          <IdeaActionID>$Delete</IdeaActionID>
+          <ShortCut>'Delete'</ShortCut>
+          <Description>Delete...</Description>
+          <Count>3</Count>
         </Item>
       </Statistic>
       <Statistic Action="Download from nvbs5">
