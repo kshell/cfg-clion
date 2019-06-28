@@ -62,7 +62,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B'</ShortCut>
           <Description>Declaration</Description>
-          <Count>96</Count>
+          <Count>99</Count>
         </Item>
       </Statistic>
       <Statistic Action="Duplicate">
@@ -97,6 +97,14 @@
           <Count>5</Count>
         </Item>
       </Statistic>
+      <Statistic Action="New Folder...">
+        <Item>
+          <IdeaActionID>FileChooser.NewFolder</IdeaActionID>
+          <ShortCut>'Alt+Insert' or 'Ctrl+N'</ShortCut>
+          <Description>New Folder...</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="New Scratch File">
         <Item>
           <IdeaActionID>NewScratchFile</IdeaActionID>
@@ -126,7 +134,15 @@
           <IdeaActionID>ActivateProjectToolWindow</IdeaActionID>
           <ShortCut>'Alt+1'</ShortCut>
           <Description>Project</Description>
-          <Count>7</Count>
+          <Count>8</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Project Directory">
+        <Item>
+          <IdeaActionID>FileChooser.GotoProject</IdeaActionID>
+          <ShortCut>'Ctrl+2'</ShortCut>
+          <Description>Project Directory</Description>
+          <Count>1</Count>
         </Item>
       </Statistic>
       <Statistic Action="Reload Page">
@@ -174,7 +190,7 @@
           <IdeaActionID>ShowSettings</IdeaActionID>
           <ShortCut>'Ctrl+Alt+S'</ShortCut>
           <Description>Settings...</Description>
-          <Count>13</Count>
+          <Count>14</Count>
         </Item>
       </Statistic>
       <Statistic Action="Step Into">
