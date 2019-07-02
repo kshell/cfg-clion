@@ -249,14 +249,6 @@
           <Count>16</Count>
         </Item>
       </Statistic>
-      <Statistic Action="Upload to...">
-        <Item>
-          <IdeaActionID>PublishGroup.UploadTo</IdeaActionID>
-          <ShortCut>'Ctrl+Alt+Shift+X'</ShortCut>
-          <Description>Upload to...</Description>
-          <Count>2</Count>
-        </Item>
-      </Statistic>
     </option>
     <option name="suppressed">
       <Statistic Action="Database">
@@ -301,6 +293,14 @@
           <ShortCut>'Ctrl+F8'</ShortCut>
           <Description>Toggle Line Breakpoint</Description>
           <Count>16</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Upload to...">
+        <Item>
+          <IdeaActionID>PublishGroup.UploadTo</IdeaActionID>
+          <ShortCut>'Ctrl+Alt+Shift+X'</ShortCut>
+          <Description>Upload to...</Description>
+          <Count>3</Count>
         </Item>
       </Statistic>
     </option>
