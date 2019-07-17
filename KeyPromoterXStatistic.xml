@@ -70,7 +70,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B'</ShortCut>
           <Description>Declaration</Description>
-          <Count>187</Count>
+          <Count>190</Count>
         </Item>
       </Statistic>
       <Statistic Action="Duplicate">
@@ -285,6 +285,12 @@
         <Item>
           <IdeaActionID>PublishGroup.Download</IdeaActionID>
           <Description>Download from nvbs5</Description>
+        </Item>
+      </Statistic>
+      <Statistic Action="Download from...">
+        <Item>
+          <IdeaActionID>PublishGroup.DownloadFrom</IdeaActionID>
+          <Description>Download from...</Description>
         </Item>
       </Statistic>
       <Statistic Action="Execute">
