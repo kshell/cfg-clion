@@ -110,7 +110,7 @@
           <IdeaActionID>Jdbc.OpenConsole.Any</IdeaActionID>
           <ShortCut>'Ctrl+Shift+F10'</ShortCut>
           <Description>Jump to Console...</Description>
-          <Count>7</Count>
+          <Count>10</Count>
         </Item>
       </Statistic>
       <Statistic Action="New Folder...">
@@ -127,14 +127,6 @@
           <ShortCut>'Ctrl+Alt+Shift+Insert'</ShortCut>
           <Description>New Scratch File</Description>
           <Count>1</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Open Console">
-        <Item>
-          <IdeaActionID>Jdbc.OpenEditor</IdeaActionID>
-          <ShortCut>'F4'</ShortCut>
-          <Description>Open Console</Description>
-          <Count>16</Count>
         </Item>
       </Statistic>
       <Statistic Action="Paste">
@@ -167,14 +159,6 @@
           <ShortCut>'Ctrl+2'</ShortCut>
           <Description>Project Directory</Description>
           <Count>1</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Reload Page">
-        <Item>
-          <IdeaActionID>Console.TableResult.Reload</IdeaActionID>
-          <ShortCut>'Ctrl+F5'</ShortCut>
-          <Description>Reload Page</Description>
-          <Count>32</Count>
         </Item>
       </Statistic>
       <Statistic Action="Remove">
@@ -230,7 +214,7 @@
           <IdeaActionID>ShowSettings</IdeaActionID>
           <ShortCut>'Ctrl+Alt+S'</ShortCut>
           <Description>Settings...</Description>
-          <Count>19</Count>
+          <Count>20</Count>
         </Item>
       </Statistic>
       <Statistic Action="Step Into">
@@ -307,6 +291,22 @@
           <ShortCut>'Ctrl+Enter'</ShortCut>
           <Description>Execute</Description>
           <Count>107</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Open Console">
+        <Item>
+          <IdeaActionID>Jdbc.OpenEditor</IdeaActionID>
+          <ShortCut>'F4'</ShortCut>
+          <Description>Open Console</Description>
+          <Count>19</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Reload Page">
+        <Item>
+          <IdeaActionID>Console.TableResult.Reload</IdeaActionID>
+          <ShortCut>'Ctrl+F5'</ShortCut>
+          <Description>Reload Page</Description>
+          <Count>33</Count>
         </Item>
       </Statistic>
       <Statistic Action="Synchronize">
