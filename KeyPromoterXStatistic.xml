@@ -174,7 +174,7 @@
           <IdeaActionID>RenameElement</IdeaActionID>
           <ShortCut>'Shift+F6'</ShortCut>
           <Description>Rename...</Description>
-          <Count>2</Count>
+          <Count>3</Count>
         </Item>
       </Statistic>
       <Statistic Action="Restore Windows">
@@ -323,6 +323,12 @@
           <ShortCut>'Ctrl+F8'</ShortCut>
           <Description>Toggle Line Breakpoint</Description>
           <Count>16</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Upload to nvbs5">
+        <Item>
+          <IdeaActionID>PublishGroup.Upload</IdeaActionID>
+          <Description>Upload to nvbs5</Description>
         </Item>
       </Statistic>
       <Statistic Action="Upload to...">
