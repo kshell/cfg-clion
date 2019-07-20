@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping ext="sqc" type="ObjectiveC" />
       <mapping ext="ec" type="ObjectiveC" />
+      <mapping ext="ccs" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
