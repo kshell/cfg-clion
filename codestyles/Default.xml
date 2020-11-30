@@ -1,4 +1,10 @@
 <code_scheme name="Default" version="173">
+  <Objective-C-extensions>
+    <extensions>
+      <pair source="c" header="h" fileNamingConvention="NONE" />
+      <pair source="cpp" header="h" fileNamingConvention="NONE" />
+    </extensions>
+  </Objective-C-extensions>
   <SqlCodeStyleSettings version="2">
     <option name="ALIAS_CASE" value="0" />
     <option name="KEYWORD_CASE" value="0" />
